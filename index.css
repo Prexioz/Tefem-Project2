@@ -2,6 +2,7 @@ p,
 li,
 h1,
 h3,
+h2,
 h4,
 a {
   padding: 0px;
@@ -177,7 +178,8 @@ section {
   gap: 14px;
 }
 .service-heading > h3,
-.menu-heading > h3, #contact > h3 {
+.menu-heading > h3,
+#contact > h3 {
   font-size: 20px;
   color: rgb(41, 122, 41);
 }
@@ -286,7 +288,7 @@ section {
   align-items: center;
   width: 100%;
 }
-.contact-text{
+.contact-text {
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -303,4 +305,81 @@ section {
   font-size: 14px;
   font-weight: 500;
   color: rgb(75, 74, 74);
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 10px auto;
+  gap: 60px;
+}
+.footer-first {
+  width: 100%;
+  display: flex;
+  gap: 60px;
+}
+
+.footer-main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 24%;
+  gap: 30px;
+}
+.footer-main > div > h2 {
+  margin: 0px 0px 10px;
+  font-size: 20px;
+  color: rgb(41, 122, 41);
+}
+
+.footer-main > div > p {
+  margin: 0px 0px 10px;
+  font-size: 13px;
+  color: rgb(75, 74, 74);
+}
+.footer-icons {
+  display: flex;
+  gap: 30px;
+}
+.footer-icons > i{
+  cursor: pointer;
+}
+.footer-services, .footer-address{
+  width: 24%;
+  gap: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-services > h2, .footer-address > h2 {
+  margin: 0px 0px 10px;
+  font-size: 20px;
+  color: rgb(48, 47, 47);
+}
+.footer-services > div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 13px;
+  color: rgb(75, 74, 74);
+}
+
+.footer-address > div {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 13px;
+  color: rgb(75, 74, 74);
+}
+
+.copyright{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 11px;
+  
+}
+.copyright > p{
+  color: rgb(116, 114, 114);
 }
